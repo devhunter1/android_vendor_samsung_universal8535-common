@@ -1,0 +1,130 @@
+{
+	"parameters" : [
+	{
+		"_comment_name_" : "Camera mode - 0: NORMAL",
+		"main" : 5,
+		"sub" : 0,
+		"level" : 0,
+		"param" : [
+		{ "name" : "freqboost", "cpu" : 4, "group" : 1, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 1, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 3, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 3, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 8, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 8, "value" : "0" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 4, "value" : "0" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 6, "value" : "0" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 0, "value" : " 533000" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 1, "value" : "1536000" },
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 0, "value" : " 533000" }, 
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 1, "value" : "2016000" }, 
+		{ "name" : "ontime_en", "group" : 1, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 3, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 8, "value" : "1" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 0, "value" : " 60" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 1, "value" : "  0" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 0, "value" : "100" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 1, "value" : " 30" }
+		]
+	},
+	{
+		"_comment_name_" : "Camera mode - 1: BALANCE",
+		"main" : 5,
+		"sub" : 1,
+		"level" : 0,
+		"param" : [
+		{ "name" : "freqboost", "cpu" : 4, "group" : 1, "value" : "10" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 1, "value" : "10" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 3, "value" : "10" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 3, "value" : "10" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 8, "value" : "10" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 8, "value" : "10" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 4, "value" : "150" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 6, "value" : "150" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 0, "value" : " 960000" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 1, "value" : "2002000" },
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 0, "value" : " 960000" }, 
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 1, "value" : "2288000" }, 
+		{ "name" : "ontime_en", "group" : 1, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 3, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 8, "value" : "1" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 0, "value" : " 30" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 1, "value" : "  0" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 0, "value" : "100" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 1, "value" : " 10" }
+		]
+	},
+	{
+		"_comment_name_" : "Camera mode - 2: POWER",
+		"main" : 5,
+		"sub" : 2,
+		"level" : 0,
+		"param" : [
+		{ "name" : "freqboost", "cpu" : 4, "group" : 1, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 1, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 3, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 3, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 8, "value" : "0" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 8, "value" : "0" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 4, "value" : "0" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 6, "value" : "0" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 0, "value" : " 533000" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 1, "value" : "1536000" },
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 0, "value" : " 533000" }, 
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 1, "value" : "2016000" }, 
+		{ "name" : "ontime_en", "group" : 1, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 3, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 8, "value" : "1" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 0, "value" : " 60" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 1, "value" : "  0" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 0, "value" : "100" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 1, "value" : " 30" }
+		]
+	},
+	{
+		"_comment_name_" : "Camera mode - 3: PERFORMANCE",
+		"main" : 5,
+		"sub" : 3,
+		"level" : 0,
+		"param" : [
+		{ "name" : "freqboost", "cpu" : 4, "group" : 1, "value" : "15" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 1, "value" : "15" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 3, "value" : "15" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 3, "value" : "15" },
+		{ "name" : "freqboost", "cpu" : 4, "group" : 8, "value" : "15" },
+		{ "name" : "freqboost", "cpu" : 6, "group" : 8, "value" : "15" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 4, "value" : "200" },
+		{ "name" : "cpufreq_gov_htask_boost", "cpu" : 6, "value" : "200" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 0, "value" : "1536000" },
+		{ "name" : "fclamp_freq", "cpu" : 4, "option" : 1, "value" : "2002000" },
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 0, "value" : "1536000" }, 
+		{ "name" : "fclamp_freq", "cpu" : 6, "option" : 1, "value" : "2400000" }, 
+		{ "name" : "ontime_en", "group" : 1, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 3, "value" : "1" },
+		{ "name" : "ontime_en", "group" : 8, "value" : "1" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 0, "value" : " 20" },
+		{ "name" : "ontime_boundary", "cpu" : 4, "option" : 1, "value" : "  0" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 0, "value" : "100" },
+		{ "name" : "ontime_boundary", "cpu" : 6, "option" : 1, "value" : "  8" }
+		]
+	},
+	{
+		"_comment_name_" : "Hyper mode - off",
+		"main" : 3,
+		"sub" : 0,
+		"level" : 0,
+		"param" : [
+		{ "name" : "prefer_cpu", "group" : 3, "value" : "0xf0" }
+		]
+	},
+	{
+		"_comment_name_" : "Hyper mode - on",
+		"main" : 3,
+		"sub" : 1,
+		"level" : 0,
+		"param" : [
+		{ "name" : "prefer_cpu", "group" : 3, "value" : "0xff" }
+		]
+	}
+	]
+}
