@@ -19,18 +19,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/fsdbg_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/fsdbg_vendor \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/android.hardware.drm-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm-service.widevine \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service \
+    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/android.hardware.security.keymint-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/mfgloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mfgloader \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.hardware.media.c2@1.2-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/samsung.software.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.software.media.c2@1.0-service \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint-service \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider-service_64 \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss-service \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.health-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.health-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.hyper-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hyper-service \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.light-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.securesnap-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.securesnap-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.drk@2.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.skpm@1.0-service \
@@ -40,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.thermal@1.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.kg@1.1-service \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/iod:$(TARGET_COPY_OUT_VENDOR)/bin/iod \
@@ -82,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/hyper/config_vendor.json:$(TARGET_COPY_OUT_VENDOR)/etc/hyper/config_vendor.json \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
+    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/android.hardware.security.keymint-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/camera.unihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camera.unihal.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/cass.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cass.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/dmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmd.rc \
@@ -96,18 +93,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/init.vendor.sysfw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sysfw.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/lights-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-default-sec.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/pa_daemon_teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pa_daemon_teegris.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/power-default-sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power-default-sec.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.2-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/samsung.software.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.software.media.c2@1.0-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.fingerprint-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.fingerprint-service.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss-service.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.health-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.health-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.securesnap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.securesnap-lazy.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.engmode@1.0-service.rc \
@@ -119,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.kg@1.1-service.rc \
-    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator-default.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.wifi@2.0-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.rilchip.slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.slsi.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
@@ -368,7 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/soundfx/libswspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswspatializer.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/spatializer-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/spatializer-aidl-cpp.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.audio@1.0.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss-V3-ndk.so \
@@ -598,17 +588,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/unihal_uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unihal_uniplugin@1.0.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.frameworks.security.dsms-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.security.dsms-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.biometrics.fingerprint-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.device-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.device-V1-ndk.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.camera.provider-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.camera.provider-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss-V3-ndk.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.health-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.health-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.keymint-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.keymint-V2-ndk.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.light-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.light-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel-V1-ndk.so \
@@ -631,7 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.iccc@1.0.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.kg@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.kg@1.0.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.tlc.kg@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.tlc.kg@1.1.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator-V5-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator-V5-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant-V1-ndk.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.0.so \
