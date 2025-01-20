@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.hardware.media.c2@1.2-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/samsung.software.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.software.media.c2@1.0-service \
+    vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider-service_64 \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.hyper-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.hyper-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.securesnap-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.securesnap-service \
@@ -49,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/tzdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzdaemon \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/tzts_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzts_daemon \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
-    vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.camera.provider-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.camera.provider-service_64 \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.engmode@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.engmode@1.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.fkeymaster-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.fkeymaster-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
