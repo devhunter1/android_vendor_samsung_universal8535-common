@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/tzdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzdaemon \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/tzts_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzts_daemon \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
+    vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.camera.provider-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.camera.provider-service_64 \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.engmode@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.engmode@1.0-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.fkeymaster-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.fkeymaster-service \
     vendor/samsung/universal8535-common/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
@@ -99,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
+    vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss-service.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.securesnap-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.securesnap-lazy.rc \
     vendor/samsung/universal8535-common/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
@@ -229,7 +231,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/gnss_aidl_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/gnss_aidl_lib.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/audio.primary.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/gatekeeper.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/hwcomposer.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.s5e8535.so \
@@ -369,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/gnss_aidl_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gnss_aidl_lib.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl.so \
-    vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/audio.primary.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/camera.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.unihal.default.so \
