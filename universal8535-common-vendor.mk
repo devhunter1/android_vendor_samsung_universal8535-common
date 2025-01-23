@@ -229,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/audio.primary.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.s5e8535.so \
+    vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/audio.sec_primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.sec_primary.default.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/gatekeeper.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/hwcomposer.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.audio@1.0-impl.so \
@@ -368,6 +369,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/audio.primary.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.s5e8535.so \
+    vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/audio.sec_primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.sec_primary.default.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/camera.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.s5e8535.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.unihal.default.so \
     vendor/samsung/universal8535-common/proprietary/vendor/lib64/hw/gatekeeper.s5e8535.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.s5e8535.so \

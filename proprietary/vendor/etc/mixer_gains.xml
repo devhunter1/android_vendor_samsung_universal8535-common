@@ -815,6 +815,12 @@
     <path name="gain-loopback_packet-incallmusic-speaker">
     </path>
 
+    <path name="gain-loopback_packet-incallmusic-speaker-top">
+    </path>
+
+    <path name="gain-loopback_packet-incallmusic-speaker-bottom">
+    </path>
+
     <!-- Realtime Loopback output volume-->
     <path name="gain-realtimeloopback-handset">
         <ctl name="Mono Playback Volume" value="17" />
