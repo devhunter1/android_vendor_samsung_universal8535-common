@@ -156,6 +156,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="21910" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="21910" mtu="1330" rat="4"/>
 
+<!-- Spusu IT -->
+    <mtuTableEntry numeric="22256" mtu="1280" rat="4"/>
+
 <!-- Italian Operators (Default : 1350) -->
     <mtuTableEntry numeric="22288" mtu="1350"/>
     <mtuTableEntry numeric="22201" mtu="1280" rat="4"/>
@@ -233,6 +236,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="24202" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="24202" mtu="1300" rat="4"/>    
 
+<!-- Erate Norway VoWiFi -->
+    <mtuTableEntry numeric="24215" mtu="1280" rat="4"/>
+
 <!-- DNA FINLAND VOLTE VOWIFI -->
     <mtuTableEntry numeric="24412" mtu="1300" rat="4"/>
     <mtuTableEntry numeric="24412" mtu="1300" profile="2"/>
@@ -294,6 +300,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="26209" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26209" mtu="1280" rat="4"/>    
 
+<!-- Portugal-MEO -->
+    <mtuTableEntry numeric="26806" mtu="1280" rat="4"/>
+
 <!-- Portugal-NOS -->
     <mtuTableEntry numeric="26803" mtu="1380" profile="2"/>
 
@@ -308,6 +317,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="27202" mtu="1358" profile="2"/>
     <mtuTableEntry numeric="27205" mtu="1358" profile="2"/>
     <mtuTableEntry numeric="27205" mtu="1440"/>
+
+<!-- Sky_IE(Ireland)-->
+    <mtuTableEntry numeric="27225" mtu="1300" profile="2"/>
+    <mtuTableEntry numeric="27225" mtu="1300" rat="4"/>
 
 <!-- Siminn -->
     <mtuTableEntry numeric="27401" mtu="1452" profile="2"/>
@@ -329,6 +342,10 @@ mtuTableEntry attributes:
 <!-- AVEA -->
     <mtuTableEntry numeric="28603" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="28603" mtu="1300" rat="4"/>
+
+<!-- Telecom Faroe Islands -->
+    <mtuTableEntry numeric="28801" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="28801" mtu="1280" rat="4"/>
 
 <!-- Telekom Slovenia -->
     <mtuTableEntry numeric="29341" mtu="1280" profile="2"/>
@@ -459,6 +476,15 @@ mtuTableEntry attributes:
 <!-- BTC Bahamas -->
     <mtuTableEntry numeric="36439" mtu="1280"/>
 
+<!-- Azercell Azerbaijan -->
+    <mtuTableEntry numeric="40001" mtu="1280" rat="4"/>
+
+<!-- Bakcell Azerbaijan -->
+    <mtuTableEntry numeric="40002" mtu="1280" rat="4"/>
+
+<!-- Nar Azerbaijan -->
+    <mtuTableEntry numeric="40004" mtu="1280" rat="4"/>
+
 <!-- Beeline Kazakhstan -->
     <mtuTableEntry numeric="40101" mtu="1280" rat="4"/>
 
@@ -514,12 +540,18 @@ mtuTableEntry attributes:
 <!-- Telzar Israel -->
     <mtuTableEntry numeric="42519" mtu="1280" rat="4"/>
 
+<!-- Annatel-->
+    <mtuTableEntry numeric="42526" mtu="1280" profile="2"/>
+
 <!-- ZAIN BH -->
     <mtuTableEntry numeric="42602" mtu="1480" profile="2"/>    
     <mtuTableEntry numeric="42602" mtu="1480" profile="14"/>
 
 <!-- Vodafone QATAR -->
     <mtuTableEntry numeric="42702" mtu="1390" rat="4"/>
+
+<!-- Uztelecom UZBEKISTAN -->
+    <mtuTableEntry numeric="43408" mtu="1280" rat="4"/>
 
 <!--  JPN SBM -->
     <mtuTableEntry numeric="44020" mtu="1422"/>
@@ -631,6 +663,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50502" mtu="1280" rat="4"/>
 
+<!--  Telstra AU -->
+    <mtuTableEntry numeric="50501" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="50501" mtu="1280" rat="4"/>
+
 <!-- MOI QATAR -->
     <mtuTableEntry numeric="42706" mtu="1280" rat="4"/>
 
@@ -666,6 +702,9 @@ mtuTableEntry attributes:
 <!-- Free Senegal -->
     <mtuTableEntry numeric="60802" mtu="1280" rat="4"/>
 
+<!-- Airtel Zambia -->
+    <mtuTableEntry numeric="64501" mtu="1280" rat="4"/>
+
 <!-- Claro Guatemala -->
     <mtuTableEntry numeric="70401" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="70401" mtu="1280" proto="2"/>
@@ -680,6 +719,10 @@ mtuTableEntry attributes:
 <!-- Claro Honduras -->
     <mtuTableEntry numeric="708001" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="708001" mtu="1280" proto="2"/>
+
+<!-- Tigo Honduras - CTE -->
+    <mtuTableEntry numeric="70802" mtu="1450" profile="2"/>
+    <mtuTableEntry numeric="708020" mtu="1450" profile="2"/>
 
 <!-- Claro Nicaragua -->
     <mtuTableEntry numeric="71021" mtu="1300" proto="1"/>
@@ -778,6 +821,9 @@ mtuTableEntry attributes:
 <!-- Plus (Polkomtel) -->
     <mtuTableEntry numeric="26001" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="26001" mtu="1300" rat="4"/>
+
+<!-- Truphone Poland -->
+    <mtuTableEntry numeric="26033" mtu="1280" rat="4"/>
 
 <!-- Mobicom Mongolia -->
     <mtuTableEntry numeric="42899" mtu="1300" profile="2"/>

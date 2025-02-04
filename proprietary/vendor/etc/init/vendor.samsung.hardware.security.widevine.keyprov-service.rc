@@ -4,4 +4,4 @@ service vendor.wvkprov_default /vendor/bin/hw/vendor.samsung.hardware.security.w
     disabled
     class hal
     user system
-    group system
+    group system drm drmrpc
