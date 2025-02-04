@@ -649,7 +649,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8535-common/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456
 
 PRODUCT_PACKAGES += \
-    bluetooth_audio.xml \
+    bluetooth_audio-vendor.xml \
     dmd.xml \
     engmode_manifest.xml \
     hyper-default-sec.xml \
